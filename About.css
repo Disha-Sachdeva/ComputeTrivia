@@ -1,0 +1,126 @@
+    *{
+        box-sizing: content-box;
+    }
+    body{
+        background-color: #FFBC42;
+    }
+    .d-inline-block{
+        width: 50px;
+        height:auto;
+    }
+    .navbar{
+        border: 5px solid black;
+        background-color: #735CDD;
+    }
+    .navbar-brand
+    {
+        font-size: 45px;
+        font-family: "New Rocker", system-ui;
+
+    }
+    .navbar-nav > li > a {
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .navbar-nav > li > button{
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-style: normal;
+        background-color: #735CDD;
+        border: none;
+    }
+    .N{
+        color:rgba(0, 0, 0, 0.3);
+    }
+    .N:hover{
+        background-color: #FF92C2;
+        border-radius: 15px;
+        font-weight: 800;
+        color:#2d2930;
+        border-color: #0c0a0e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .C:hover {
+        background-color: #FF92C2;
+        border-radius: 15px;
+        font-weight: 800;
+        color: #fff;
+        border-color: #0c0a0e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .D{
+        background-color: #FF92C2;
+        border-radius: 15px;
+    }
+    #G{
+        font-size: 45px;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-style: normal; 
+    }
+    h2{
+        text-align: center ;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    .card-body{
+        border:2px solid black;
+    }
+    .team{
+        margin-left:70px;
+    }
+    .col{
+        border: 4px solid black;
+        margin: auto;
+        height: auto;
+        width: 700px ;
+        text-align: justify;
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 24px;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-style: normal;  
+        background-color:  #FFF5EE;
+    }
+    input[type="email"] {
+        max-width: 450px;
+    }
+    input[type="password"] {
+        max-width: 450px;
+    }
+    @media (max-width: 800px) {
+  #G {
+    font-size: 2rem;
+  }
+  .col {
+    width: 98vw;
+    max-width: 98vw;
+    padding: 16px 8vw;
+    font-size: 1.05rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  #G {
+    font-size: 1.2rem;
+    margin-bottom: 14px;
+  }
+  .col {
+    padding: 9vw 3vw;
+    border-radius: 9px;
+    font-size: 0.88rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  ul {
+    padding-left: 5vw;
+  }
+}

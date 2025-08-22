@@ -1,0 +1,141 @@
+        *{
+            box-sizing: content-box;
+        }
+        body{
+            background-color: #FFBC42;
+        }
+        .d-inline-block{
+            width: 50px;
+            height:auto;
+        }
+        .navbar{
+            border: 5px solid black;
+            background-color: #735CDD;
+        }
+        .navbar-brand
+        {
+            font-size: 45px;
+            font-family: "New Rocker", system-ui;
+
+        }
+        .navbar-nav > li > a {
+            font-size: 30px;
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .navbar-nav > li > button{
+            font-size: 30px;
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            font-style: normal;
+            background-color: #735CDD;
+            border: none;
+            
+        }
+        .N{
+            color:rgba(31, 30, 30, 0.3);
+        }
+        .N:hover{
+            border-radius: 15px;
+            font-weight: 800;
+            color:#2d2930;
+            background-color: #FF92C2;
+            border-color: #0c0a0e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .C:hover {
+            border-radius: 15px;
+            font-weight: 800;
+            background-color: #FF92C2;
+            color: #fff;
+            border-color: #0c0a0e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .D{
+            background-color: #FF92C2;
+            border-radius: 15px;
+        }
+        #heading{
+        font-family: "Playfair Display", system-ui;
+        font-weight: 900;;
+        font-size: 45px;
+        margin-left: 40px;
+        text-align: center;
+        }
+        .col{
+            border: 4px solid black;
+            margin:30px;
+            height: 300px;
+            width: auto;
+            text-align: justify;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 24px;
+            font-family: "Playfair Display", serif;
+            font-weight: 500;
+            font-style: normal;  
+            background-color:  #FF92C2;
+        }
+        #play {
+  color: #0c0a0e;
+  background-color: #218380;
+  border-radius: 15px;
+  border: 2px solid #0c0a0e;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  padding: 12px 34px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background 0.2s, color 0.15s;
+  box-shadow: 0px 2px 6px #0002;
+}
+#play:hover {
+  background-color: #FFBC42;
+  color: #000;
+  border-color: #0c0a0e;
+}
+        h2{
+            text-align:center;
+            margin: 15px 0px;
+            font-weight: 900;
+        }
+        .btn-box {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 29px;
+                }
+        #Fact{
+            text-align: justify;
+            font-size: 24px;
+            font-family: "Playfair Display", serif;
+        }
+        input[type="email"] {
+            max-width: 450px;
+        }
+        input[type="password"] {
+            max-width: 450px;
+        }
+        @media (max-width: 1000px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    max-width: 94vw;
+    min-width: 220px;
+    margin: 14px 0;
+  }
+}
+@media (max-width: 600px) {
+  .col {
+    font-size: 1rem;
+    padding: 16px 4vw 24px 4vw;
+  }
+  .btn-box {
+    margin-top: 18px;
+  }
+}

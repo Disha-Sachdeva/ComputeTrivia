@@ -1,0 +1,87 @@
+    *{
+        box-sizing: content-box;
+    }
+    body{
+        background-color: #FFBC42;
+    }
+    .d-inline-block{
+        width: 50px;
+        height:auto;
+        
+    }
+    .navbar{
+        border: 5px solid black;
+        background-color: #735CDD;
+    }
+    .navbar-brand
+    {
+        font-size: 45px;
+        font-family: "New Rocker", system-ui;
+
+    }
+    .navbar-nav > li > a {
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .navbar-nav > li > button{
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-style: normal;
+        background-color: #735CDD;
+        border: none;
+    }
+    .N{
+        color:rgba(0, 0, 0, 0.3)
+    }
+    .N:hover{
+        background-color: #FF92C2;
+        border-radius: 15px;
+        font-weight: 800;
+        color:#2d2930;
+        border-color: #0c0a0e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .C:hover {
+        border-radius: 15px;
+        font-weight: 800;
+        color:#2d2930;
+        background-color: #FF92C2;
+        color: #fff;
+        border-color: #0c0a0e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .D{
+        background-color: #FF92C2;
+        border-radius: 15px;
+    }
+    .col{
+        border: 4px solid black;
+        margin: 30px;
+        height: 130px ;
+        width: auto;
+        text-align: center;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: #FFF5EE;
+        font-size: 25px;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-style: normal;
+        
+    }
+    .col:hover{
+
+        background-color: #735CDD;
+        color: #000;
+        border-color: #0c0a0e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    input[type="email"] {
+        max-width: 450px;
+    }
+    input[type="password"] {
+        max-width: 450px;
+    }
